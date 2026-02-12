@@ -16,7 +16,7 @@
 > - Allow `curl` SSL bypass with `--ssl-no-revoke` inside `$HOME/_curlrc` (corporate environments).
 > - Set `codecompanion` adapter API key with `setx <ADAPTER>_API_KEY <API_KEY>` @ PowerShell.
 >   - Ollama Cloud requires _Device Key_ instead; use `ollama signin` to generate it.
-> - Clone this repository `git clone https://github.com/mezdelex/neovim $HOME/AppData/Local/nvim`.
+> - Clone this repository via `git clone https://github.com/mezdelex/neovim $HOME/AppData/Local/nvim`.
 
 ---
 
