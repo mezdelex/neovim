@@ -9,7 +9,7 @@
 
 > [!IMPORTANT]
 >
-> - Install `neovim-nightly`, `fd`, `grpcurl`, `mingw-winlibs-llvm-msvcrt`, `ripgrep`, `rustup` & `tree-sitter` via `scoop install neovim-nightly fd grpcurl mingw-winlibs-llvm-msvcrt ripgrep rustup tree-sitter` @ PowerShell.
+> - Install `neovim-nightly`, `dotnet-sdk`, `fd`, `go`, `grpcurl`, `mingw-winlibs-llvm-msvcrt`, `nodejs`, `python`, `ripgrep`, `rustup` & `tree-sitter` via `scoop install neovim-nightly dotnet-sdk fd go grpcurl mingw-winlibs-llvm-msvcrt nodejs python ripgrep rustup tree-sitter` @ PowerShell.
 > - Install `roslyn-language-server` via `dotnet tool install -g roslyn-language-server --prerelease` @ PowerShell.
 > - Install `Desktop development with C++` package with `Visual Studio Build Tools` installer.
 > - Allow `cargo` SSL bypass with `setx CARGO_HTTP_CHECK_REVOKE false` @ PowerShell (corporate environments).
