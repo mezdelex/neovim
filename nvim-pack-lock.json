@@ -1,7 +1,7 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "7c80e36023c5499a97e097cb5f229e9b635725a0",
+      "rev": "85666c58d8ed49539794e913fd15f508af2ca8fb",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "bufferline.nvim": {
@@ -134,7 +134,7 @@
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
-      "rev": "e09eb93503232bf2d3487de7ffb1dd30381a8e4e",
+      "rev": "307428df9364102c787d90ed18e4564423cbb503",
       "src": "https://github.com/mezdelex/roslyn.nvim"
     },
     "telescope-egrepify.nvim": {
