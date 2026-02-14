@@ -1,7 +1,7 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "85666c58d8ed49539794e913fd15f508af2ca8fb",
+      "rev": "cd79f572971c58784ca72551af29af3a63da9168",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "bufferline.nvim": {
@@ -97,7 +97,7 @@
       "src": "https://github.com/nvim-neotest/nvim-nio"
     },
     "nvim-treesitter": {
-      "rev": "9f2dad22ef8bb14fd1e0a3aa8859cdc88170668b",
+      "rev": "4d9466677a5ceadef104eaa0fe08d60d91c4e9a7",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
