@@ -14,8 +14,7 @@
 > - Install `Desktop development with C++` package with `Visual Studio Build Tools` installer.
 > - Allow `cargo` SSL bypass with `setx CARGO_HTTP_CHECK_REVOKE false` @ PowerShell (corporate environments).
 > - Allow `curl` SSL bypass with `--ssl-no-revoke` inside `$HOME/_curlrc` (corporate environments).
-> - Set `codecompanion` adapter API key with `setx <ADAPTER>_API_KEY <API_KEY>` @ PowerShell.
->   - Ollama Cloud requires _Device Key_ instead; use `ollama signin` to generate it.
+> - Ollama's cloud models require a _Device Key_; use `ollama signin` to generate one and run `ollama serve` @ PowerShell before using `codecompanion`.
 > - Clone this repository via `git clone https://github.com/mezdelex/neovim $HOME/AppData/Local/nvim`.
 
 ---
