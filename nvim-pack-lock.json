@@ -158,7 +158,7 @@
       "src": "https://github.com/mbbill/undotree"
     },
     "unpack.nvim": {
-      "rev": "be3db694bcef5bb2a9adf964bf84472ece771c52",
+      "rev": "e8f53add3cdf5284945a9e2b373b8b7927e67d30",
       "src": "https://github.com/mezdelex/unpack.nvim"
     }
   }
