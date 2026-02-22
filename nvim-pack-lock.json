@@ -41,7 +41,7 @@
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mason-lspconfig.nvim": {
-      "rev": "21c2a84ce368e99b18f52ab348c4c02c32c02fcf",
+      "rev": "6c4830e37743b060d13c9269394176aea6a0fbc8",
       "src": "https://github.com/williamboman/mason-lspconfig.nvim"
     },
     "mason-null-ls.nvim": {
@@ -134,7 +134,7 @@
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
-      "rev": "7f9d36689761fc78d5434016c3ebbde3cfbaca47",
+      "rev": "fc9fa7210ef1c50cafd04d02417677a809844dcf",
       "src": "https://github.com/mezdelex/roslyn.nvim"
     },
     "telescope-egrepify.nvim": {
