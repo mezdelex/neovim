@@ -4,25 +4,28 @@
 ---@param latest_time number
 ---@return string?, number
 local function scan_dir(dir, latest_file, latest_time)
-    local dir_handle = vim.uv.fs_scandir(dir)
-    if not dir_handle then
+    if not vim.uv.fs_stat(dir) then
         return latest_file, latest_time
     end
 
-    while true do
-        local name, type = vim.uv.fs_scandir_next(dir_handle)
-        if not name then
-            break
+    local files = vim.fs.find(function(name)
+        if name:match("^System") then
+            return false
         end
 
-        local path = dir .. "/" .. name
-        if type == "directory" then
-            latest_file, latest_time = scan_dir(path, latest_file, latest_time)
-        elseif (name:match("%.dll$") or name:match("%.exe$")) and not name:match("^System") then
-            local file_stat = vim.uv.fs_stat(path)
-            if file_stat and file_stat.mtime.sec > latest_time then
-                latest_file, latest_time = path, file_stat.mtime.sec
-            end
+        return name:match("%.dll$") or name:match("%.exe$")
+    end, {
+        limit = math.huge,
+        path = dir,
+        type = "file",
+    })
+
+    for _, file in ipairs(files) do
+        local stat = vim.uv.fs_stat(file)
+
+        if stat and stat.mtime.sec > latest_time then
+            latest_file = file
+            latest_time = stat.mtime.sec
         end
     end
 
@@ -33,18 +36,15 @@ local M = {} ---@class Utils.Dap
 
 ---@param base_paths string[]
 ---@return string
-M.find_file_or_default = function(base_paths)
-    local cwd = vim.fn.getcwd()
-    local build_dirs = vim.tbl_map(function(path) ---@type string[]
-        return cwd .. path
-    end, base_paths)
+function M.find_file_or_default(base_paths)
+    local cwd = vim.uv.cwd()
     local latest_file, latest_time = nil, 0
 
-    for _, dir in ipairs(build_dirs) do
-        latest_file, latest_time = scan_dir(dir, latest_file, latest_time)
+    for _, path in ipairs(base_paths) do
+        latest_file, latest_time = scan_dir(vim.fs.joinpath(cwd, path), latest_file, latest_time)
     end
 
-    return latest_file or build_dirs[1]
+    return latest_file or vim.fs.joinpath(cwd, base_paths[1])
 end
 
 return M
