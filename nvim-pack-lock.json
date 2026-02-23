@@ -1,7 +1,7 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "b4d379393882561f9055abe780342ee00f02c573",
+      "rev": "b650e976a927be6b46487a0a610b75af111376c5",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "bufferline.nvim": {
@@ -97,7 +97,7 @@
       "src": "https://github.com/nvim-neotest/nvim-nio"
     },
     "nvim-treesitter": {
-      "rev": "dc42c209f3820bdfaae0956f15de29689aa6b451",
+      "rev": "d660b7c002f3922b6bb3da47206645488a698426",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
@@ -114,7 +114,7 @@
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "oil.nvim": {
-      "rev": "f55b25e493a7df76371cfadd0ded5004cb9cd48a",
+      "rev": "48fc83a9978c5f25833634700c08be583ee78eb7",
       "src": "https://github.com/stevearc/oil.nvim"
     },
     "plenary.nvim": {
@@ -122,7 +122,7 @@
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
     "quicker.nvim": {
-      "rev": "fc041830fa7cf093786b0d5990d99cf3c7b0c129",
+      "rev": "2d3f3276eab9352c7b212821c218aca986929f62",
       "src": "https://github.com/stevearc/quicker.nvim"
     },
     "registers.nvim": {
