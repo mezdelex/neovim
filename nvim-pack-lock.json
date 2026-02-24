@@ -89,7 +89,7 @@
       "src": "https://github.com/rcarriga/nvim-dap-ui"
     },
     "nvim-lspconfig": {
-      "rev": "b7dcde3e6195b43476ae799720b177aedc16d44c",
+      "rev": "ab5139c99df944479e5a26495a37840fcbb1d512",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-nio": {
@@ -114,7 +114,7 @@
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "oil.nvim": {
-      "rev": "48fc83a9978c5f25833634700c08be583ee78eb7",
+      "rev": "0fcc83805ad11cf714a949c98c605ed717e0b83e",
       "src": "https://github.com/stevearc/oil.nvim"
     },
     "plenary.nvim": {
