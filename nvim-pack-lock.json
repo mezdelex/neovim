@@ -9,7 +9,7 @@
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
     "codecompanion.nvim": {
-      "rev": "a3710ff4f10a8f215ace1a4f5f0f881d0c6c4e93",
+      "rev": "758e3fbb357a49ba823d6498eb745b0deec64abc",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "everforest-nvim": {
