@@ -24,10 +24,7 @@ return {
     end,
     defer = true,
     dependencies = {
-        {
-            defer = true,
-            src = "https://github.com/jay-babu/mason-null-ls.nvim",
-        },
+        { src = "https://github.com/jay-babu/mason-null-ls.nvim" },
     },
     src = "https://github.com/nvimtools/none-ls.nvim",
 }

@@ -59,18 +59,9 @@ return {
     end,
     defer = true,
     dependencies = {
-        {
-            defer = true,
-            src = "https://github.com/mezdelex/roslyn.nvim",
-        },
-        {
-            defer = true,
-            src = "https://github.com/williamboman/mason-lspconfig.nvim",
-        },
-        {
-            defer = true,
-            src = "https://github.com/williamboman/mason.nvim",
-        },
+        { src = "https://github.com/mezdelex/roslyn.nvim" },
+        { src = "https://github.com/williamboman/mason-lspconfig.nvim" },
+        { src = "https://github.com/williamboman/mason.nvim" },
     },
     src = "https://github.com/neovim/nvim-lspconfig",
 }

@@ -101,26 +101,11 @@ return {
     end,
     defer = true,
     dependencies = {
-        {
-            defer = true,
-            src = "https://github.com/jay-babu/mason-nvim-dap.nvim",
-        },
-        {
-            defer = true,
-            src = "https://github.com/leoluz/nvim-dap-go",
-        },
-        {
-            defer = true,
-            src = "https://github.com/mfussenegger/nvim-dap-python",
-        },
-        {
-            defer = true,
-            src = "https://github.com/nvim-neotest/nvim-nio",
-        },
-        {
-            defer = true,
-            src = "https://github.com/rcarriga/nvim-dap-ui",
-        },
+        { src = "https://github.com/jay-babu/mason-nvim-dap.nvim" },
+        { src = "https://github.com/leoluz/nvim-dap-go" },
+        { src = "https://github.com/mfussenegger/nvim-dap-python" },
+        { src = "https://github.com/nvim-neotest/nvim-nio" },
+        { src = "https://github.com/rcarriga/nvim-dap-ui" },
     },
     src = "https://github.com/mfussenegger/nvim-dap",
 }

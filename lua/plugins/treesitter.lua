@@ -67,11 +67,7 @@ return {
     end,
     defer = true,
     dependencies = {
-        {
-            defer = true,
-            src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
-            version = "main",
-        },
+        { src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
     },
     src = "https://github.com/nvim-treesitter/nvim-treesitter",
 }

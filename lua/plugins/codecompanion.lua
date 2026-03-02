@@ -12,10 +12,7 @@ return {
     end,
     defer = true,
     dependencies = {
-        {
-            defer = true,
-            src = "https://github.com/nvim-lua/plenary.nvim",
-        },
+        { src = "https://github.com/nvim-lua/plenary.nvim" },
     },
     src = "https://github.com/olimorris/codecompanion.nvim",
 }
