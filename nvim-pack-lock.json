@@ -1,7 +1,7 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "6fcd28769c717e443a30ae9b911796f392556a99",
+      "rev": "74afc2893efc031b771316e21b1ba97c9416ffce",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "bufferline.nvim": {
@@ -9,8 +9,12 @@
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
     "codecompanion.nvim": {
-      "rev": "9ef72232bffeeadd31d3a29b301cbc05662b0e29",
+      "rev": "1913b5aa05745bca90d7912c76ed118f1744a620",
       "src": "https://github.com/olimorris/codecompanion.nvim"
+    },
+    "copilot.vim": {
+      "rev": "a12fd5672110c8aa7e3c8419e28c96943ca179be",
+      "src": "https://github.com/github/copilot.vim"
     },
     "everforest-nvim": {
       "rev": "557bce922401e247a596583679bc181d4d688554",
@@ -69,7 +73,7 @@
       "src": "https://github.com/kevinhwang91/nvim-bqf"
     },
     "nvim-colorizer.lua": {
-      "rev": "a6919ed9aadd0a8b2c11f264c9cbd41316dabf73",
+      "rev": "4770635b4903d849fb30a9e45ac5da5eb5c36a16",
       "src": "https://github.com/catgoose/nvim-colorizer.lua"
     },
     "nvim-dap": {
@@ -97,7 +101,7 @@
       "src": "https://github.com/nvim-neotest/nvim-nio"
     },
     "nvim-treesitter": {
-      "rev": "cb2cb74f3c3cbbcc17e79cada2060165d616d849",
+      "rev": "972f378653c794b0ff82282a844732695064b70f",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
@@ -129,7 +133,7 @@
       "src": "https://github.com/tversteeg/registers.nvim"
     },
     "render-markdown.nvim": {
-      "rev": "1c958131c083c8557ea499fdb08c88b8afb05c4e",
+      "rev": "1641b434bda26e0f4e3610985b3357fc213cf834",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
