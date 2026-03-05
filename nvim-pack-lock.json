@@ -1,7 +1,7 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "1912be2ca1f7fc98ae5b2b12fad49525f3b366ec",
+      "rev": "e9556f9b981f395e22a6bfd69fd5f3008a2a6cd9",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "bufferline.nvim": {
@@ -9,7 +9,7 @@
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
     "codecompanion.nvim": {
-      "rev": "ed367944ece02d0ab2a2552ba3ad0b092f1a2144",
+      "rev": "f22fe1b04e47110a26abe70bad537cb9baf9c665",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "copilot.vim": {
@@ -73,7 +73,7 @@
       "src": "https://github.com/kevinhwang91/nvim-bqf"
     },
     "nvim-colorizer.lua": {
-      "rev": "1ace5df4a1e55e5bbd8c2b310284d8264aede0fe",
+      "rev": "a267072fa3d0c79c90c4d1af5e3871e51180aa5c",
       "src": "https://github.com/catgoose/nvim-colorizer.lua"
     },
     "nvim-dap": {
@@ -93,7 +93,7 @@
       "src": "https://github.com/rcarriga/nvim-dap-ui"
     },
     "nvim-lspconfig": {
-      "rev": "ead0f5f342d8d323441e7d4b88f0fc436a81ad5f",
+      "rev": "2b87d107942b9eebef768512f5849330335a9493",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-nio": {
@@ -133,7 +133,7 @@
       "src": "https://github.com/tversteeg/registers.nvim"
     },
     "render-markdown.nvim": {
-      "rev": "1641b434bda26e0f4e3610985b3357fc213cf834",
+      "rev": "bd482f9a4827c9422231a7db1439c5cff1e69ae0",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
