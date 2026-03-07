@@ -9,7 +9,7 @@
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
     "codecompanion.nvim": {
-      "rev": "2e1bbedf9de85a256b12f3636dbaf153cca450de",
+      "rev": "462924cfcff86a9e054d571df6c911a690aff4ec",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "copilot.vim": {
@@ -161,7 +161,7 @@
       "src": "https://github.com/mbbill/undotree"
     },
     "unpack.nvim": {
-      "rev": "10547b377d851616b6656539d983f5e369399b95",
+      "rev": "c2d6149aba2e41510823c9f1339c98661923a3a1",
       "src": "https://github.com/mezdelex/unpack.nvim"
     }
   }

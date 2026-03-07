@@ -6,6 +6,8 @@ function M.find_file_or_default(base_paths)
     local cwd = vim.uv.cwd()
     local latest_file, latest_time = nil, 0
 
+    ---@private
+    ---@param _dir string
     local function scan_dir(_dir)
         if not vim.uv.fs_stat(_dir) then
             return
