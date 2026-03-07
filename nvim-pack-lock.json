@@ -9,7 +9,7 @@
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
     "codecompanion.nvim": {
-      "rev": "bade4034395d327f1fd3defd34cce4793e412a27",
+      "rev": "2e1bbedf9de85a256b12f3636dbaf153cca450de",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "copilot.vim": {
