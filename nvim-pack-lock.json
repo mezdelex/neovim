@@ -101,7 +101,7 @@
       "src": "https://github.com/nvim-neotest/nvim-nio"
     },
     "nvim-treesitter": {
-      "rev": "ebe76eb800d4e8df754fc96f8a7b84f578224a97",
+      "rev": "5cb05e1b0fa3c469958a2b26f36b3fe930af221c",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
@@ -161,7 +161,7 @@
       "src": "https://github.com/mbbill/undotree"
     },
     "unpack.nvim": {
-      "rev": "e87692177fd01f50c70fa84aab074aed1b18a1ad",
+      "rev": "10547b377d851616b6656539d983f5e369399b95",
       "src": "https://github.com/mezdelex/unpack.nvim"
     }
   }
