@@ -88,24 +88,20 @@
       "rev": "1808458eba2b18f178f990e01376941a42c7f93b",
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
-    "nvim-dap-ui": {
-      "rev": "cf91d5e2d07c72903d052f5207511bf7ecdb7122",
-      "src": "https://github.com/rcarriga/nvim-dap-ui"
+    "nvim-dap-view": {
+      "rev": "4f9069096f5616f12a73b9287586d21eb1e4fdb0",
+      "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
       "rev": "2163c54bb6cfec53e3e555665ada945b8c8331b9",
       "src": "https://github.com/neovim/nvim-lspconfig"
-    },
-    "nvim-nio": {
-      "rev": "21f5324bfac14e22ba26553caf69ec76ae8a7662",
-      "src": "https://github.com/nvim-neotest/nvim-nio"
     },
     "nvim-treesitter": {
       "rev": "5cb05e1b0fa3c469958a2b26f36b3fe930af221c",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
-      "rev": "efee9bb7b2f4b45ff28f562cabe6f530f264f676",
+      "rev": "4e91b5d0394329a229725b021a8ea217099826ef",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
     },
     "nvim-ts-autotag": {

@@ -1,7 +1,6 @@
 return {
     config = function()
         local dap = require("dap")
-        local dapui = require("dapui")
         local utils_dap = require("utils.dap")
 
         require("mason").setup()
@@ -73,11 +72,9 @@ return {
                 type = "coreclr",
             },
         }
-        dap.listeners.before.attach.dapui_config = dapui.open
-        dap.listeners.before.event_exited.dapui_config = dapui.close
-        dap.listeners.before.event_terminated.dapui_config = dapui.close
-        dap.listeners.before.launch.dapui_config = dapui.open
-        dapui.setup()
+        require("dap-view").setup({
+            auto_toggle = true,
+        })
 
         vim.fn.sign_define("DapBreakpoint", {
             linehl = "debugBreakpoint",
@@ -104,6 +101,10 @@ return {
     dependencies = {
         {
             defer = true,
+            src = "https://github.com/igorlfs/nvim-dap-view",
+        },
+        {
+            defer = true,
             src = "https://github.com/jay-babu/mason-nvim-dap.nvim",
         },
         {
@@ -113,14 +114,6 @@ return {
         {
             defer = true,
             src = "https://github.com/mfussenegger/nvim-dap-python",
-        },
-        {
-            defer = true,
-            src = "https://github.com/nvim-neotest/nvim-nio",
-        },
-        {
-            defer = true,
-            src = "https://github.com/rcarriga/nvim-dap-ui",
         },
         {
             defer = true,
