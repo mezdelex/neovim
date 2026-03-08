@@ -73,7 +73,7 @@
       "src": "https://github.com/kevinhwang91/nvim-bqf"
     },
     "nvim-colorizer.lua": {
-      "rev": "710b649d795b8661fabad7342a5d2eab2d92184e",
+      "rev": "ef211089af881bea206c7aa3f2693a81feee7e90",
       "src": "https://github.com/catgoose/nvim-colorizer.lua"
     },
     "nvim-dap": {
@@ -105,7 +105,7 @@
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
-      "rev": "0bc4ef0a34d80fd6e67b59bd71fcbb0ef9ef4756",
+      "rev": "efee9bb7b2f4b45ff28f562cabe6f530f264f676",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
     },
     "nvim-ts-autotag": {
@@ -133,7 +133,7 @@
       "src": "https://github.com/tversteeg/registers.nvim"
     },
     "render-markdown.nvim": {
-      "rev": "907505549edc2f90c82fc429348af03ee8c3a825",
+      "rev": "fcea0776a3019f49360b7aaec3318630633c522d",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
@@ -157,7 +157,7 @@
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
     "undotree": {
-      "rev": "d8f99084d98c32f651860eb0baaf89759f91debc",
+      "rev": "6fa6b57cda8459e1e4b2ca34df702f55242f4e4d",
       "src": "https://github.com/mbbill/undotree"
     },
     "unpack.nvim": {
