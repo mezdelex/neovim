@@ -9,7 +9,7 @@
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
     "codecompanion.nvim": {
-      "rev": "5ace714f80eca3e391a9629d0cab1dcadcb16131",
+      "rev": "5e4f7cfac58c94c61d5a3d3a99d715d5c8762db6",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "copilot.vim": {
@@ -121,7 +121,7 @@
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
     "quicker.nvim": {
-      "rev": "2d3f3276eab9352c7b212821c218aca986929f62",
+      "rev": "063cc44da1eef8681bbd653b29d3bc961780886a",
       "src": "https://github.com/stevearc/quicker.nvim"
     },
     "registers.nvim": {
