@@ -1,7 +1,7 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "e3523b949badd35ac8553bb975698f8d47b6debd",
+      "rev": "79e60867fa183883c7029f8abb0a017da359b1ad",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "bufferline.nvim": {
@@ -11,10 +11,6 @@
     "codecompanion.nvim": {
       "rev": "5e4f7cfac58c94c61d5a3d3a99d715d5c8762db6",
       "src": "https://github.com/olimorris/codecompanion.nvim"
-    },
-    "copilot.vim": {
-      "rev": "a12fd5672110c8aa7e3c8419e28c96943ca179be",
-      "src": "https://github.com/github/copilot.vim"
     },
     "everforest-nvim": {
       "rev": "323e7633034a8068636a11597cec03bca5465c50",
@@ -61,7 +57,7 @@
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
-      "rev": "e785f7b2949cb188e5645528a7293d650d124dbc",
+      "rev": "c9317c2a8629d4e39e7cf47be74cb67f3ab37cda",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
     "nvim-autopairs": {
@@ -93,7 +89,7 @@
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "d8bf4c47385340ab2029402201d4d7c9f99f437a",
+      "rev": "0203a9608d63eda57679b01e69f33a7b4c34b0d1",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -109,7 +105,7 @@
       "src": "https://github.com/windwp/nvim-ts-autotag"
     },
     "nvim-web-devicons": {
-      "rev": "737cf6c657898d0c697311d79d361288a1343d50",
+      "rev": "d7462543c9e366c0d196c7f67a945eaaf5d99414",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "oil.nvim": {
