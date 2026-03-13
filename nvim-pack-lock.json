@@ -1,7 +1,7 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "658d0ec1d93646ff999fe6044098af89d81428ed",
+      "rev": "3586996d1d468cd9bea24e534387e9ffd60198f1",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "bufferline.nvim": {
@@ -89,7 +89,7 @@
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "0203a9608d63eda57679b01e69f33a7b4c34b0d1",
+      "rev": "3addf05a791ea256c36438220aced91c03071712",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
