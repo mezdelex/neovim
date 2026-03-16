@@ -4,6 +4,10 @@
       "rev": "ba174a5819b0d1eb4e3bab8c0231a26293f58338",
       "src": "https://github.com/saghen/blink.cmp"
     },
+    "blink.pairs": {
+      "rev": "262b03d52d2763557a5261a421a639a7edba4bab",
+      "src": "https://github.com/saghen/blink.pairs"
+    },
     "bufferline.nvim": {
       "rev": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
       "src": "https://github.com/akinsho/bufferline.nvim"
@@ -59,10 +63,6 @@
     "none-ls.nvim": {
       "rev": "c9317c2a8629d4e39e7cf47be74cb67f3ab37cda",
       "src": "https://github.com/nvimtools/none-ls.nvim"
-    },
-    "nvim-autopairs": {
-      "rev": "59bce2eef357189c3305e25bc6dd2d138c1683f5",
-      "src": "https://github.com/windwp/nvim-autopairs"
     },
     "nvim-bqf": {
       "rev": "f65fba733268ffcf9c5b8ac381287eca7c223422",
@@ -129,7 +129,7 @@
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
-      "rev": "fc9fa7210ef1c50cafd04d02417677a809844dcf",
+      "rev": "439f5826d232014005b56513efe6e3e964572192",
       "src": "https://github.com/mezdelex/roslyn.nvim"
     },
     "telescope-egrepify.nvim": {
