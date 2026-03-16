@@ -85,7 +85,7 @@
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-dap-view": {
-      "rev": "cd14d34150b05d633610ff8d39d6934110696923",
+      "rev": "1b538131335f807ab54baa2bc06b811d5dd75079",
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
@@ -93,7 +93,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "2f5d4c3f3c675962242096bcc8e586d76dd72eb2",
+      "rev": "ebc3201290b8372df2b3a1c23b71b9f007d972ff",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
