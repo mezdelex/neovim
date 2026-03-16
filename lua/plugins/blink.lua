@@ -1,5 +1,10 @@
 return {
     config = function()
+        require("blink.indent").setup({
+            scope = {
+                highlights = { "BlinkIndentScope" },
+            },
+        })
         require("blink.pairs").setup({
             highlights = { enabled = false },
         })
@@ -16,6 +21,10 @@ return {
     },
     defer = true,
     dependencies = {
+        {
+            defer = true,
+            src = "https://github.com/saghen/blink.indent",
+        },
         {
             data = {
                 build = "cargo build --release",
