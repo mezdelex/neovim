@@ -3,7 +3,6 @@ return {
         require("mason-lspconfig").setup({
             ensure_installed = {
                 "angularls",
-                "basedpyright",
                 "bashls",
                 "buf_ls",
                 "cssls",
@@ -24,6 +23,7 @@ return {
                 "terraformls",
                 "tombi",
                 "ts_ls",
+                "ty",
                 "vimls",
                 "vue_ls",
                 "yamlls",
