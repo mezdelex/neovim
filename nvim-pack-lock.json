@@ -17,7 +17,7 @@
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
     "codecompanion.nvim": {
-      "rev": "57d3f1bd08d1f37bf483daf3a6ff72e76280553a",
+      "rev": "cc0d298b6b7bdbdcfe48f7e70deb0e6215fe4d32",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "everforest-nvim": {
@@ -89,7 +89,7 @@
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "702f69fb167e9119f14adc4dfd4fcadf4d1b07a0",
+      "rev": "11f730caa976a00def4387cbacb6183cec7939c7",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -97,7 +97,7 @@
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
-      "rev": "4e91b5d0394329a229725b021a8ea217099826ef",
+      "rev": "7359dfcefa38db632541e1f9b5b5f291626a1d47",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
     },
     "nvim-ts-autotag": {
