@@ -44,6 +44,11 @@ return {
             options = {
                 component_separators = {},
                 disabled_filetypes = {
+                    "AgenticChat",
+                    "AgenticCode",
+                    "AgenticDiagnostics",
+                    "AgenticFiles",
+                    "AgenticTodos",
                     "dap-view",
                     "diff",
                     "git",

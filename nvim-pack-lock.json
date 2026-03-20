@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "agentic.nvim": {
+      "rev": "4813e54e8310b3a917d4b094d016b200b27e6d3a",
+      "src": "https://github.com/carlos-algms/agentic.nvim"
+    },
     "blink.cmp": {
       "rev": "612f4bd2bc29d9e7dc7be1dde960908951bedad1",
       "src": "https://github.com/saghen/blink.cmp"
@@ -15,10 +19,6 @@
     "bufferline.nvim": {
       "rev": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
       "src": "https://github.com/akinsho/bufferline.nvim"
-    },
-    "codecompanion.nvim": {
-      "rev": "cc0d298b6b7bdbdcfe48f7e70deb0e6215fe4d32",
-      "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "everforest-nvim": {
       "rev": "323e7633034a8068636a11597cec03bca5465c50",
@@ -93,7 +93,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "53f6ce29df5841ce26e5a9f06fb371088b8d8031",
+      "rev": "877f724846f2202a16e311bd19efb954bd1c430e",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
