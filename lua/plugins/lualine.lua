@@ -48,7 +48,6 @@ return {
                     "AgenticCode",
                     "AgenticDiagnostics",
                     "AgenticFiles",
-                    "AgenticTodos",
                     "dap-view",
                     "diff",
                     "git",
