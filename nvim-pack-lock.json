@@ -5,7 +5,7 @@
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "blink.cmp": {
-      "rev": "612f4bd2bc29d9e7dc7be1dde960908951bedad1",
+      "rev": "62c3d54f7d739ee46f850ea6832383e3b7ca2ee1",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -97,7 +97,7 @@
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
-      "rev": "7359dfcefa38db632541e1f9b5b5f291626a1d47",
+      "rev": "93d60a475f0b08a8eceb99255863977d3a25f310",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
     },
     "nvim-ts-autotag": {
