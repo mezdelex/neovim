@@ -11,6 +11,7 @@
 >
 > - Install `neovim-nightly`, `copilot-cli`, `dotnet-sdk`, `fd`, `go`, `grpcurl`, `mingw-winlibs-llvm-msvcrt`, `nodejs`, `python`, `ripgrep`, `rustup` & `tree-sitter` via `scoop install neovim-nightly copilot-cli dotnet-sdk fd go grpcurl mingw-winlibs-llvm-msvcrt nodejs python ripgrep rustup tree-sitter` @ PowerShell.
 > - Install `roslyn-language-server` via `dotnet tool install -g roslyn-language-server --prerelease` @ PowerShell.
+> - Install `cline` via `npm install -g cline` @ PowerShell.
 > - Install `Desktop development with C++` package with `Visual Studio Build Tools` installer.
 > - Set the ACP provider via `setx ACP_PROVIDER <cline-acp|copilot-acp|...>` @ PowerShell and sign in before using `agentic.nvim`.
 > - Clone this repository via `git clone https://github.com/mezdelex/neovim $HOME/AppData/Local/nvim`.
