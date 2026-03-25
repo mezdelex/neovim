@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "4813e54e8310b3a917d4b094d016b200b27e6d3a",
+      "rev": "cfa49d9dc3d9712ed10a963706caa55cc0eb62aa",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "blink.cmp": {
