@@ -3,13 +3,7 @@ return {
         local agentic = require("agentic")
 
         agentic.setup({
-            acp_providers = {
-                ["cline-acp"] = {
-                    args = { "-Command", "cline --acp" },
-                    command = "pwsh",
-                },
-            },
-            provider = os.getenv("ACP_PROVIDER"),
+            provider = "opencode-acp",
         })
 
         vim.keymap.set("n", "<leader>h", agentic.toggle)
