@@ -93,7 +93,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "f059649bc39ab39d55f2a165db752c956897d4fd",
+      "rev": "da8bf82a534506989c7bc9189552b5fba958f0c6",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
@@ -119,10 +119,6 @@
     "quicker.nvim": {
       "rev": "063cc44da1eef8681bbd653b29d3bc961780886a",
       "src": "https://github.com/stevearc/quicker.nvim"
-    },
-    "registers.nvim": {
-      "rev": "c217f8f369e0886776cda6c94eab839b30a8940d",
-      "src": "https://github.com/tversteeg/registers.nvim"
     },
     "render-markdown.nvim": {
       "rev": "e3c18ddd27a853f85a6f513a864cf4f2982b9f26",
@@ -155,6 +151,10 @@
     "unpack.nvim": {
       "rev": "11e4d8be9d5b74b1c7d43a28b668b78aa9d924df",
       "src": "https://github.com/mezdelex/unpack.nvim"
+    },
+    "yanky.nvim": {
+      "rev": "784188e0a7363e762e53140f39124d786aec0832",
+      "src": "https://github.com/gbprod/yanky.nvim"
     }
   }
 }

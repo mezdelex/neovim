@@ -25,3 +25,5 @@ vim.opt.undofile = true
 vim.opt.showmode = false
 vim.opt.termguicolors = true
 vim.opt.winborder = "rounded"
+
+vim.opt.clipboard = "unnamedplus"

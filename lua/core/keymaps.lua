@@ -41,5 +41,3 @@ vim.keymap.set("x", "<", "<gv")
 vim.keymap.set("x", ">", ">gv")
 vim.keymap.set("x", "J", ":m'>+1<cr>gv=gv", options)
 vim.keymap.set("x", "K", ":m'<-2<cr>gv=gv", options)
-
-vim.keymap.set({ "n", "x" }, "<leader>y", '"+y')
