@@ -4,6 +4,10 @@
       "rev": "cfa49d9dc3d9712ed10a963706caa55cc0eb62aa",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
+    "barbar.nvim": {
+      "rev": "539d73def39c9172b4d4d769f14090e08f37b29d",
+      "src": "https://github.com/romgrk/barbar.nvim"
+    },
     "blink.cmp": {
       "rev": "7c9777bae52009a198a2e6d56bc9185dbf3d151f",
       "src": "https://github.com/saghen/blink.cmp"
@@ -15,10 +19,6 @@
     "blink.pairs": {
       "rev": "2da33da164fbbf5cf52214fb9e7db1096d55e0dc",
       "src": "https://github.com/saghen/blink.pairs"
-    },
-    "bufferline.nvim": {
-      "rev": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
-      "src": "https://github.com/akinsho/bufferline.nvim"
     },
     "everforest-nvim": {
       "rev": "323e7633034a8068636a11597cec03bca5465c50",
@@ -93,7 +93,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "da8bf82a534506989c7bc9189552b5fba958f0c6",
+      "rev": "7caec274fd19c12b55902a5b795100d21531391f",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
