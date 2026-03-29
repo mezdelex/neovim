@@ -17,7 +17,7 @@
       "src": "https://github.com/saghen/blink.pairs"
     },
     "codecompanion.nvim": {
-      "rev": "0cc43b8fd329395c0bd2c35b78c69a3f742ec400",
+      "rev": "c1a932ea07817bba01b84b0e242cf19b8288b179",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "everforest-nvim": {
@@ -149,7 +149,7 @@
       "src": "https://github.com/mbbill/undotree"
     },
     "unpack.nvim": {
-      "rev": "11e4d8be9d5b74b1c7d43a28b668b78aa9d924df",
+      "rev": "68c0b265b92992e83359af0c5d223fcb9c882d38",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
