@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "0bab49d5cc73b6bcd51d3528f9e55ae222cff662",
+      "rev": "1c662b584511cf61ee23a22256db46cf3f3f8495",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "7c9777bae52009a198a2e6d56bc9185dbf3d151f",
+      "rev": "8a2060dff4e68ac17f1c92aed526c76fb0c1ac2f",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -45,7 +45,7 @@
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mason-lspconfig.nvim": {
-      "rev": "38499e0bda64bc0f3ec6e7f03f8e13dd11c0fa00",
+      "rev": "037398b9ce4a53ba48d5f94765c641a1fd16d906",
       "src": "https://github.com/williamboman/mason-lspconfig.nvim"
     },
     "mason-null-ls.nvim": {

@@ -11,6 +11,7 @@ return {
                 separator = { left = "" },
                 separator_at_end = false,
             },
+            no_name_title = "[unnamed]",
         })
     end,
     defer = true,

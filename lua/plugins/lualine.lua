@@ -27,7 +27,7 @@ return {
                     modified = "[]",
                     newfile = "[]",
                     readonly = "[]",
-                    unnamed = "[No Name]",
+                    unnamed = "[unnamed]",
                 },
             },
         }
