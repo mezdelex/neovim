@@ -17,7 +17,7 @@
       "src": "https://github.com/saghen/blink.pairs"
     },
     "codecompanion.nvim": {
-      "rev": "c1a932ea07817bba01b84b0e242cf19b8288b179",
+      "rev": "66533e86c8948be78096550e0f75d46930c4e296",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
     "everforest-nvim": {
@@ -73,7 +73,7 @@
       "src": "https://github.com/catgoose/nvim-colorizer.lua"
     },
     "nvim-dap": {
-      "rev": "2a8799ad91a1495c6bdf753f9b2179b3ff0f5bba",
+      "rev": "4f5deb110d9ff8994d96c21df95e2271d11214f9",
       "src": "https://github.com/mfussenegger/nvim-dap"
     },
     "nvim-dap-go": {
@@ -137,7 +137,7 @@
       "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
     },
     "telescope.nvim": {
-      "rev": "5255aa27c422de944791318024167ad5d40aad20",
+      "rev": "e6cdb4dc528c5dc4ca8da86e83ef4e3c84b0729c",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "tiny-code-action.nvim": {
