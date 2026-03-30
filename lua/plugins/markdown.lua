@@ -3,7 +3,7 @@ return {
         local markdown = require("render-markdown")
 
         markdown.setup({
-            file_types = { "codecompanion", "markdown" },
+            file_types = { "AgenticChat", "markdown" },
         })
 
         vim.keymap.set("n", "<leader>m", markdown.toggle)

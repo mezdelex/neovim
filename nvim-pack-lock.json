@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "agentic.nvim": {
+      "rev": "1c662b584511cf61ee23a22256db46cf3f3f8495",
+      "src": "https://github.com/carlos-algms/agentic.nvim"
+    },
     "barbar.nvim": {
       "rev": "539d73def39c9172b4d4d769f14090e08f37b29d",
       "src": "https://github.com/romgrk/barbar.nvim"
@@ -16,13 +20,9 @@
       "rev": "2da33da164fbbf5cf52214fb9e7db1096d55e0dc",
       "src": "https://github.com/saghen/blink.pairs"
     },
-    "codecompanion.nvim": {
-      "rev": "66533e86c8948be78096550e0f75d46930c4e296",
-      "src": "https://github.com/olimorris/codecompanion.nvim"
-    },
     "everforest-nvim": {
-      "rev": "323e7633034a8068636a11597cec03bca5465c50",
-      "src": "https://github.com/neanias/everforest-nvim"
+      "rev": "90a32efad70a3850198974e29461f052b0226ee5",
+      "src": "https://github.com/mezdelex/everforest-nvim"
     },
     "gitsigns.nvim": {
       "rev": "50c205548d8b037b7ff6378fca6d21146f0b6161",
@@ -149,7 +149,7 @@
       "src": "https://github.com/mbbill/undotree"
     },
     "unpack.nvim": {
-      "rev": "68c0b265b92992e83359af0c5d223fcb9c882d38",
+      "rev": "3ea2b73d9c6203b166f60b9250ae5453dffd1f4a",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
