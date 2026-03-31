@@ -144,10 +144,6 @@
       "rev": "8e72efa075ba3154bbc4c7d1db532b03b4e68373",
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
-    "undotree": {
-      "rev": "6fa6b57cda8459e1e4b2ca34df702f55242f4e4d",
-      "src": "https://github.com/mbbill/undotree"
-    },
     "unpack.nvim": {
       "rev": "3ea2b73d9c6203b166f60b9250ae5453dffd1f4a",
       "src": "https://github.com/mezdelex/unpack.nvim"

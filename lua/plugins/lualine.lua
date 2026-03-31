@@ -53,7 +53,7 @@ return {
                     "diff",
                     "git",
                     "gitsigns-blame",
-                    "undotree",
+                    "nvim-undotree",
                 },
                 section_separators = {},
                 theme = "everforest",

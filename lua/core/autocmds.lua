@@ -25,6 +25,9 @@ vim.api.nvim_create_autocmd("LspAttach", {
 vim.api.nvim_create_autocmd("VimEnter", {
     callback = function()
         vim.cmd("clearjumps")
+        vim.cmd("packadd nvim.undotree")
+
+        vim.keymap.set("n", "<leader>u", require("undotree").open)
     end,
     group = group,
 })
