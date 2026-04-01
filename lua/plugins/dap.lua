@@ -5,12 +5,7 @@ return {
 
         require("mason").setup()
         require("mason-nvim-dap").setup({
-            ensure_installed = {
-                "codelldb",
-                "coreclr",
-                "delve",
-                "python",
-            },
+            ensure_installed = { "codelldb", "coreclr", "delve", "python" },
         })
 
         require("dap-go").setup()

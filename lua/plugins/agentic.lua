@@ -1,6 +1,10 @@
 return {
     config = function()
         local agentic = require("agentic")
+        local sequence = { "", "", "", "" }
+        local spinner = vim.fn.mapnew(vim.fn.range(38), function(_, i)
+            return sequence[i % #sequence + 1]
+        end)
 
         agentic.setup({
             chat_icons = {
@@ -20,6 +24,12 @@ return {
                 reject_once = "󰍶",
             },
             provider = "opencode-acp",
+            spinner_chars = {
+                busy = spinner,
+                generating = spinner,
+                searching = spinner,
+                thinking = spinner,
+            },
             status_icons = {
                 completed = "",
                 failed = "",
