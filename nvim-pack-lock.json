@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "ff75b6a737f432738ef3c0f444df49898f120aa6",
+      "rev": "8f1cbc7352640eae8f1daad2097d556f3297237f",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "1eebbba1baa56946e7c031111d88a72f945381f5",
+      "rev": "69b469147fd879ac30d815ecd2477b1ee9b6e2c7",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -65,7 +65,7 @@
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
     "nvim-bqf": {
-      "rev": "f65fba733268ffcf9c5b8ac381287eca7c223422",
+      "rev": "c282a62bec6c0621a1ef5132aa3f4c9fc4dcc2c7",
       "src": "https://github.com/kevinhwang91/nvim-bqf"
     },
     "nvim-colorizer.lua": {
@@ -145,7 +145,7 @@
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
     "unpack.nvim": {
-      "rev": "3ea2b73d9c6203b166f60b9250ae5453dffd1f4a",
+      "rev": "94a3274e2d6019e13fc3afd072069d393008c977",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
