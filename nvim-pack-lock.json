@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "69b469147fd879ac30d815ecd2477b1ee9b6e2c7",
+      "rev": "679a2ffad4bae720bb12e6bcdf57b0dd8b8a80f8",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -25,7 +25,7 @@
       "src": "https://github.com/mezdelex/everforest-nvim"
     },
     "gitsigns.nvim": {
-      "rev": "0f00d07c2c3106ba6abd594ac1c17f211141b7b5",
+      "rev": "e1b90b60fb7aa9c0ada8e983b460764b35a05e2e",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
     "kulala.nvim": {
@@ -93,7 +93,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "c82bf96f0a773d85304feeb695e1e23b2207ac35",
+      "rev": "6878ae017d691a0df1c49d8a091c88a33e4c2d50",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {

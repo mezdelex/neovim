@@ -1,6 +1,11 @@
 return {
     config = function()
         local dap = require("dap")
+        local dotnet_envs = { "Development", "Local", "Production", "Test" }
+        local rust_args = {
+            { "build" },
+            { "test", "--no-run" },
+        }
         local utils_dap = require("utils.dap")
 
         require("mason").setup()
@@ -18,12 +23,10 @@ return {
             port = "${port}",
             type = "server",
         }
-        dap.configurations.rust = {
-            {
-                cargo = {
-                    args = { "build" },
-                },
-                name = "Build",
+        dap.configurations.rust = vim.tbl_map(function(_args)
+            return {
+                cargo = { args = _args },
+                name = string.upper(_args[1]),
                 program = function()
                     return vim.fn.input("Path to exe: ", utils_dap.find_file_or_default("target/debug/.*%.exe"), "file")
                 end,
@@ -32,30 +35,17 @@ return {
                     { text = '-interpreter-exec console "settings set target.x86-disassembly-flavor none"' },
                 },
                 type = "codelldb",
-            },
-            {
-                cargo = {
-                    args = { "test", "--no-run" },
-                },
-                name = "Test",
-                program = function()
-                    return vim.fn.input("Path to exe: ", utils_dap.find_file_or_default("target/debug/.*%.exe"), "file")
-                end,
-                request = "launch",
-                setupCommands = {
-                    { text = '-interpreter-exec console "settings set target.x86-disassembly-flavor none"' },
-                },
-                type = "codelldb",
-            },
-        }
+            }
+        end, rust_args)
         dap.adapters.coreclr = {
             args = { "--interpreter=vscode" },
             command = vim.fn.stdpath("data") .. "/mason/packages/netcoredbg/netcoredbg/netcoredbg.exe",
             type = "executable",
         }
-        dap.configurations.cs = {
-            {
-                name = "Build",
+        dap.configurations.cs = vim.tbl_map(function(_env)
+            local config = {
+                env = { ASPNETCORE_URLS = "https://localhost:5100;http://localhost:5000" },
+                name = string.upper(_env),
                 program = function()
                     return vim.fn.input(
                         "Path to dll: ",
@@ -65,8 +55,13 @@ return {
                 end,
                 request = "launch",
                 type = "coreclr",
-            },
-        }
+            }
+            if _env ~= dotnet_envs[3] then
+                config.env.ASPNETCORE_ENVIRONMENT = _env
+            end
+
+            return config
+        end, dotnet_envs)
         require("dap-view").setup({
             auto_toggle = true,
         })
