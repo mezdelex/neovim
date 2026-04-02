@@ -1,6 +1,7 @@
 return {
     config = function()
         local dap = require("dap")
+        local dap_ui = require("dap.ui")
         local dotnet_envs = { "Development", "Local", "Production", "Test" }
         local rust_args = {
             { "build" },
@@ -28,7 +29,7 @@ return {
                 cargo = { args = _args },
                 name = string.upper(_args[1]),
                 program = function()
-                    return vim.fn.input("Path to exe: ", utils_dap.find_file_or_default("target/debug/.*%.exe"), "file")
+                    return dap_ui.pick_one(utils_dap.find_files("target/debug/.*%.exe"))
                 end,
                 request = "launch",
                 setupCommands = {
@@ -47,11 +48,7 @@ return {
                 env = { ASPNETCORE_URLS = "https://localhost:5100;http://localhost:5000" },
                 name = string.upper(_env),
                 program = function()
-                    return vim.fn.input(
-                        "Path to dll: ",
-                        utils_dap.find_file_or_default("bin/Debug/.*%.dll", "Program.cs"),
-                        "file"
-                    )
+                    return dap_ui.pick_one(utils_dap.find_files("bin/Debug/.*%.dll", true))
                 end,
                 request = "launch",
                 type = "coreclr",
