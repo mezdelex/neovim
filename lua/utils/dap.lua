@@ -1,3 +1,41 @@
+---@class Utils.Dap.Adapter
+---@field type string
+
+---@class Utils.Dap.Adapter.CodeLLDB.Executable
+---@field args string[]
+---@field command string
+
+---@class Utils.Dap.Adapter.CodeLLDB : Utils.Dap.Adapter
+---@field executable Utils.Dap.Adapter.CodeLLDB.Executable
+---@field port string
+
+---@class Utils.Dap.Adapter.CoreCLR : Utils.Dap.Adapter
+---@field args string[]
+---@field command string
+
+---@class Utils.Dap.Configuration
+---@field name string
+---@field program fun()
+---@field request string
+---@field type string
+
+---@class Utils.Dap.Configuration.Rust.Cargo
+---@field args string[]
+
+---@class Utils.Dap.Configuration.Rust.SetupCommand
+---@field text string
+
+---@class Utils.Dap.Configuration.Rust : Utils.Dap.Configuration
+---@field cargo Utils.Dap.Configuration.Rust.Cargo
+---@field setupCommands Utils.Dap.Configuration.Rust.SetupCommand[]
+
+---@class Utils.Dap.Configuration.Dotnet.Env
+---@field ASPNETCORE_ENVIRONMENT string?
+---@field ASPNETCORE_URLS string
+
+---@class Utils.Dap.Configuration.Dotnet : Utils.Dap.Configuration
+---@field env Utils.Dap.Configuration.Dotnet.Env
+
 local M = {} ---@class Utils.Dap
 
 ---@param pattern string

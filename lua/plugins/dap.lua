@@ -16,7 +16,7 @@ return {
 
         require("dap-go").setup()
         require("dap-python").setup(vim.fn.stdpath("data") .. "/mason/packages/debugpy/venv/Scripts/python.exe")
-        dap.adapters.codelldb = {
+        dap.adapters.codelldb = { ---@type Utils.Dap.Adapter.CodeLLDB
             executable = {
                 args = { "--port", "${port}" },
                 command = vim.fn.stdpath("data") .. "/mason/packages/codelldb/extension/adapter/codelldb.exe",
@@ -24,8 +24,8 @@ return {
             port = "${port}",
             type = "server",
         }
-        dap.configurations.rust = vim.tbl_map(function(_args)
-            return {
+        dap.configurations.rust = vim.tbl_map(function(_args) ---@type Utils.Dap.Configuration.Rust[]
+            return { --- @type Utils.Dap.Configuration.Rust
                 cargo = { args = _args },
                 name = string.upper(_args[1]),
                 program = function()
@@ -38,13 +38,13 @@ return {
                 type = "codelldb",
             }
         end, rust_args)
-        dap.adapters.coreclr = {
+        dap.adapters.coreclr = { ---@type Utils.Dap.Adapter.CoreCLR
             args = { "--interpreter=vscode" },
             command = vim.fn.stdpath("data") .. "/mason/packages/netcoredbg/netcoredbg/netcoredbg.exe",
             type = "executable",
         }
-        dap.configurations.cs = vim.tbl_map(function(_env)
-            local config = {
+        dap.configurations.cs = vim.tbl_map(function(_env) ---@type Utils.Dap.Configuration.Dotnet[]
+            local config = { ---@type Utils.Dap.Configuration.Dotnet
                 env = { ASPNETCORE_URLS = "https://localhost:5100;http://localhost:5000" },
                 name = string.upper(_env),
                 program = function()
