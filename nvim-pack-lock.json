@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "679a2ffad4bae720bb12e6bcdf57b0dd8b8a80f8",
+      "rev": "ba9601b77e721d53d66e1486a30a05c6311cf535",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -85,15 +85,15 @@
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-dap-view": {
-      "rev": "af144cfbdeafd90dfdaa3d406e3f8e06ddc4f0e3",
+      "rev": "e57ac4051aa56293e89991ab93bc148de35321ca",
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "8e2084bf5e40c79c1f42210a6ef96a0a4793a763",
+      "rev": "11afebab7ae8953c1db8f4c223e7742132d035f3",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "539abf6da5ee8702e37b82cc953131dadd570da2",
+      "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
