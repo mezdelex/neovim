@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "ba9601b77e721d53d66e1486a30a05c6311cf535",
+      "rev": "6731979aa370be0e5c7cc73258ce945730a515c9",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -25,7 +25,7 @@
       "src": "https://github.com/mezdelex/everforest-nvim"
     },
     "gitsigns.nvim": {
-      "rev": "e1fb5425c8812214209b3f24eaa582c6c552cf98",
+      "rev": "944ef13cc8d8fe8b846c91f36041c8dfb85ca000",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
     "kulala.nvim": {
@@ -89,7 +89,7 @@
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "11afebab7ae8953c1db8f4c223e7742132d035f3",
+      "rev": "9ccd58a7949091c0cc2777d4e92a45a209c808c1",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -105,7 +105,7 @@
       "src": "https://github.com/windwp/nvim-ts-autotag"
     },
     "nvim-web-devicons": {
-      "rev": "d7462543c9e366c0d196c7f67a945eaaf5d99414",
+      "rev": "40e9d5a6cc3db11b309e39593fc7ac03bb844e38",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "oil.nvim": {
@@ -145,7 +145,7 @@
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
     "unpack.nvim": {
-      "rev": "94a3274e2d6019e13fc3afd072069d393008c977",
+      "rev": "b7ea593f4373eb024193c04956932c8db81fdf16",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
