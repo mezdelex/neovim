@@ -24,7 +24,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 vim.api.nvim_create_autocmd("VimEnter", {
     callback = function()
-        require("vim._core.ui2").enable()
         vim.cmd("clearjumps")
         vim.cmd("packadd nvim.undotree")
 
