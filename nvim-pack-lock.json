@@ -61,7 +61,7 @@
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
-      "rev": "c9317c2a8629d4e39e7cf47be74cb67f3ab37cda",
+      "rev": "6ad251ef07dd4ba0cc725a5553cc76e9923f1a4a",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
     "nvim-bqf": {
@@ -145,7 +145,7 @@
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
     "unpack.nvim": {
-      "rev": "b7ea593f4373eb024193c04956932c8db81fdf16",
+      "rev": "a115163765d5adba5c4464827b595b914cffd1b8",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
