@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "6731979aa370be0e5c7cc73258ce945730a515c9",
+      "rev": "007e77662025e6b0da579b38fbe71e8f0f60eea4",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -41,7 +41,7 @@
       "src": "https://github.com/ray-x/lsp_signature.nvim"
     },
     "lualine.nvim": {
-      "rev": "74114f0df664f14d7c228945693ba68a3b70a794",
+      "rev": "8811f3f3f4dc09d740c67e9ce399e7a541e2e5b2",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mason-lspconfig.nvim": {
