@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "007e77662025e6b0da579b38fbe71e8f0f60eea4",
+      "rev": "b4b7cbb52bab6c716b317433fa9348a070cccee5",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -25,7 +25,7 @@
       "src": "https://github.com/mezdelex/everforest-nvim"
     },
     "gitsigns.nvim": {
-      "rev": "944ef13cc8d8fe8b846c91f36041c8dfb85ca000",
+      "rev": "4ed47e8c4c66c921dc1d6643977e0526e1f44396",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
     "kulala.nvim": {
@@ -121,7 +121,7 @@
       "src": "https://github.com/stevearc/quicker.nvim"
     },
     "render-markdown.nvim": {
-      "rev": "c7188a8f9d2953696b6303caccbf39c51fa2c1b1",
+      "rev": "2247dcd1ff0c223cfa7e317783f89b8d00457ce6",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
@@ -145,7 +145,7 @@
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
     "unpack.nvim": {
-      "rev": "a115163765d5adba5c4464827b595b914cffd1b8",
+      "rev": "639eca4baed5a91e4a4fea5ca29f99ece561ce0a",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
