@@ -25,7 +25,7 @@
       "src": "https://github.com/mezdelex/everforest-nvim"
     },
     "gitsigns.nvim": {
-      "rev": "db486b42299b2e3f5831809617af21becf268a39",
+      "rev": "0d797daee85366bc242580e352a4f62d67557b84",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
     "kulala.nvim": {
@@ -57,7 +57,7 @@
       "src": "https://github.com/jay-babu/mason-nvim-dap.nvim"
     },
     "mason.nvim": {
-      "rev": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65",
+      "rev": "b03fb0f20bc1d43daf558cda981a2be22e73ac42",
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
@@ -145,7 +145,7 @@
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
     "unpack.nvim": {
-      "rev": "639eca4baed5a91e4a4fea5ca29f99ece561ce0a",
+      "rev": "9599bde80f5854be7fe67728bd79a09f6a8c503d",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
