@@ -17,6 +17,12 @@ return {
                 info = "",
                 warn = "",
             },
+            message_icons = {
+                error = "",
+                finished = "",
+                stopped = "",
+                thinking = "󰧑",
+            },
             permission_icons = {
                 allow_always = "󱍷",
                 allow_once = "",
@@ -41,5 +47,5 @@ return {
         vim.keymap.set({ "i", "n", "x" }, "<a-a>", agentic.toggle)
     end,
     defer = true,
-    src = "https://github.com/carlos-algms/agentic.nvim",
+    src = "https://github.com/mezdelex/agentic.nvim",
 }

@@ -1,15 +1,15 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "d7e82c9c3e8bbbe8f81d451a704aa5a73eb9e5e2",
-      "src": "https://github.com/carlos-algms/agentic.nvim"
+      "rev": "823937a34fc903d53a5f177f27986791be7a754e",
+      "src": "https://github.com/mezdelex/agentic.nvim"
     },
     "barbar.nvim": {
       "rev": "539d73def39c9172b4d4d769f14090e08f37b29d",
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "b4b7cbb52bab6c716b317433fa9348a070cccee5",
+      "rev": "a327b19a419347084074cce77f6cd074f54705ac",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -21,7 +21,7 @@
       "src": "https://github.com/saghen/blink.pairs"
     },
     "everforest-nvim": {
-      "rev": "90a32efad70a3850198974e29461f052b0226ee5",
+      "rev": "495861c860c8ed7443dc142b0effd7ec127db4f0",
       "src": "https://github.com/mezdelex/everforest-nvim"
     },
     "gitsigns.nvim": {
@@ -69,7 +69,7 @@
       "src": "https://github.com/kevinhwang91/nvim-bqf"
     },
     "nvim-colorizer.lua": {
-      "rev": "c8c2c19436d33165ec34fa90c975bc0a739fe3fb",
+      "rev": "5cfe7fffbd01e17b3c1e14af85d5febdef88bd8c",
       "src": "https://github.com/catgoose/nvim-colorizer.lua"
     },
     "nvim-dap": {
@@ -125,7 +125,7 @@
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
-      "rev": "49f1fd6745fc281109c7dc0f6470fb1e41a24e23",
+      "rev": "9518806e0ef52a3677bb3cb906e8a54bf9a248ee",
       "src": "https://github.com/mezdelex/roslyn.nvim"
     },
     "telescope-egrepify.nvim": {
