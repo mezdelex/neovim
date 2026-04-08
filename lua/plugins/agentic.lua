@@ -47,5 +47,5 @@ return {
         vim.keymap.set({ "i", "n", "x" }, "<a-a>", agentic.toggle)
     end,
     defer = true,
-    src = "https://github.com/mezdelex/agentic.nvim",
+    src = "https://github.com/carlos-algms/agentic.nvim",
 }
