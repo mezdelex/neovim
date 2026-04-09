@@ -30,11 +30,11 @@
 ---@field setupCommands Utils.Dap.Configuration.Rust.SetupCommand[]
 
 ---@class Utils.Dap.Configuration.Dotnet.Env
----@field ASPNETCORE_ENVIRONMENT string?
----@field ASPNETCORE_URLS string
+---@field name string
+---@field value string
 
 ---@class Utils.Dap.Configuration.Dotnet : Utils.Dap.Configuration
----@field env Utils.Dap.Configuration.Dotnet.Env
+---@field environment Utils.Dap.Configuration.Dotnet.Env[]
 
 local M = {} ---@class Utils.Dap
 

@@ -89,7 +89,7 @@
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "fb5fa30626ae10f7f79f740059d3769993936ecb",
+      "rev": "c588db330592fa477a70d2fee6ba20a57194bdc3",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -105,7 +105,7 @@
       "src": "https://github.com/windwp/nvim-ts-autotag"
     },
     "nvim-web-devicons": {
-      "rev": "95b7a002d5dba1a42eb58f5fac5c565a485eefd0",
+      "rev": "6e76c5e47e957fbf080b1fdac165c66dbd2e7cfb",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "oil.nvim": {
@@ -137,7 +137,7 @@
       "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
     },
     "telescope.nvim": {
-      "rev": "7525ee9763f1f05ef39cd58cf04793884c2cec50",
+      "rev": "48d2656e54d3e3953ae647153ccdaffa50d4d76b",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "tiny-code-action.nvim": {
