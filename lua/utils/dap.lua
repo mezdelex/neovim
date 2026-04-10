@@ -14,6 +14,7 @@
 ---@field command string
 
 ---@class Utils.Dap.Configuration
+---@field env table<string, string>?
 ---@field name string
 ---@field program fun()
 ---@field request string
@@ -34,7 +35,6 @@
 ---@field value string
 
 ---@class Utils.Dap.Configuration.Dotnet : Utils.Dap.Configuration
----@field env table<string, string>
 ---@field environment Utils.Dap.Configuration.Dotnet.Env[]?
 
 local M = {} ---@class Utils.Dap
