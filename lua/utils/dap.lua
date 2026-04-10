@@ -34,7 +34,8 @@
 ---@field value string
 
 ---@class Utils.Dap.Configuration.Dotnet : Utils.Dap.Configuration
----@field environment Utils.Dap.Configuration.Dotnet.Env[]
+---@field env table<string, string>
+---@field environment Utils.Dap.Configuration.Dotnet.Env[]?
 
 local M = {} ---@class Utils.Dap
 

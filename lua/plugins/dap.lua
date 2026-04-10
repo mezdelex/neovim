@@ -44,15 +44,8 @@ return {
             type = "executable",
         }
         dap.configurations.cs = vim.tbl_map(function(_env)
-            local envs = { ---@type Utils.Dap.Configuration.Dotnet.Env[]
-                { name = "ASPNETCORE_URLS", value = "https://localhost:5100;http://localhost:5000" },
-            }
-            if _env ~= dotnet_envs[3] then
-                table.insert(envs, { name = "ASPNETCORE_ENVIRONMENT", value = _env })
-            end
-
-            return { ---@type Utils.Dap.Configuration.Dotnet
-                environment = envs,
+            local config = { ---@type Utils.Dap.Configuration.Dotnet
+                env = { ASPNETCORE_URLS = "https://localhost:5100;http://localhost:5000" },
                 name = string.upper(_env),
                 program = function()
                     return dap_ui.pick_one(utils_dap.find_files("bin/Debug/.*%.dll", true))
@@ -60,6 +53,11 @@ return {
                 request = "launch",
                 type = "coreclr",
             }
+            if _env ~= dotnet_envs[3] then
+                config.environment = { name = "ASPNETCORE_ENVIRONMENT", value = _env }
+            end
+
+            return config
         end, dotnet_envs)
         require("dap-view").setup({
             auto_toggle = true,
