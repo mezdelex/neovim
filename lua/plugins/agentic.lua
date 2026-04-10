@@ -44,6 +44,7 @@ return {
             },
         })
 
+        vim.keymap.set({ "i", "n", "x" }, "<a-A>", agentic.stop_generation)
         vim.keymap.set({ "i", "n", "x" }, "<a-a>", agentic.toggle)
     end,
     defer = true,
