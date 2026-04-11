@@ -74,7 +74,7 @@ return {
     dependencies = {
         {
             defer = true,
-            src = "https://github.com/nvim-treesitter/nvim-treesitter",
+            src = "https://github.com/neovim-treesitter/nvim-treesitter",
         },
         {
             defer = true,
