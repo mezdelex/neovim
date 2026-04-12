@@ -49,11 +49,6 @@ return {
             "yaml",
         })
 
-        require("kulala").setup({
-            global_keymaps = true,
-            global_keymaps_prefix = "<leader>k",
-        })
-
         utils_ts.to_move_mapper("c", to_move, textobjects.co)
         utils_ts.to_move_mapper("f", to_move, textobjects.fo)
         utils_ts.to_move_mapper("i", to_move, textobjects.io)
@@ -74,12 +69,8 @@ return {
     dependencies = {
         {
             defer = true,
-            src = "https://github.com/neovim-treesitter/nvim-treesitter",
-        },
-        {
-            defer = true,
             src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
         },
     },
-    src = "https://github.com/mistweaverco/kulala.nvim",
+    src = "https://github.com/mezdelex/nvim-treesitter",
 }
