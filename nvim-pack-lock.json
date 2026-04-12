@@ -41,7 +41,7 @@
       "src": "https://github.com/ray-x/lsp_signature.nvim"
     },
     "lualine.nvim": {
-      "rev": "f5d2a8570f8b736ddb9bb4be504355bcd6e15ec8",
+      "rev": "a905eeebc4e63fdc48b5135d3bf8aea5618fb21c",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mason-lspconfig.nvim": {
@@ -61,7 +61,7 @@
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
-      "rev": "7f9301e416533b5d74e2fb3b1ce5059eeaed748b",
+      "rev": "899e93f9f10251d7220b188eba1b837c0ba27927",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
     "nvim-bqf": {
@@ -85,7 +85,7 @@
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-dap-view": {
-      "rev": "e57ac4051aa56293e89991ab93bc148de35321ca",
+      "rev": "64e2d57788ef93469af1e0319311f669a3126cd3",
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
@@ -93,7 +93,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "41218025408be671ec17e173844a5e2079d5a1bf",
+      "rev": "328722623b3394d9a563a5dafd7a90a8f1342dc5",
       "src": "https://github.com/neovim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
@@ -141,7 +141,7 @@
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "tiny-code-action.nvim": {
-      "rev": "32090efd5d883dbbef0486312d6af464cb142a80",
+      "rev": "1c75d7e121ea38bf362d939ddb9064ca9bb6884f",
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
     "unpack.nvim": {
