@@ -69,8 +69,12 @@ return {
     dependencies = {
         {
             defer = true,
+            src = "https://github.com/neovim-treesitter/treesitter-parser-registry",
+        },
+        {
+            defer = true,
             src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
         },
     },
-    src = "https://github.com/mezdelex/nvim-treesitter",
+    src = "https://github.com/neovim-treesitter/nvim-treesitter",
 }
