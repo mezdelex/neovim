@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "58c38cf5a8e77b3a88853e6f99cefdd5bcfbbe08",
+      "rev": "69da7037824780a8b5998f5d7dcb35fe9b099a9c",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -89,7 +89,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "beae65a429b9dd56b659ab221f091eb53ddf654e",
+      "rev": "df7489eeea351bece7fd0f9c825be5cb6a1438f0",
       "src": "https://github.com/neovim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
@@ -137,11 +137,11 @@
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "tiny-code-action.nvim": {
-      "rev": "1c75d7e121ea38bf362d939ddb9064ca9bb6884f",
+      "rev": "9f4b05c2f93f76a7bd517d9587ad0dc73cca0d0d",
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
     "treesitter-parser-registry": {
-      "rev": "46796631bb16965ac214444a54c2540e4fc82516",
+      "rev": "6eb15358bb9fc88f0d3401d8538d56652e9bdf3c",
       "src": "https://github.com/neovim-treesitter/treesitter-parser-registry"
     },
     "unpack.nvim": {
