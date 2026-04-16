@@ -9,5 +9,5 @@ return {
 
         everforest.load()
     end,
-    src = "https://github.com/mezdelex/everforest-nvim",
+    src = "https://github.com/neanias/everforest-nvim",
 }

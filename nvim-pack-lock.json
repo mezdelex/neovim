@@ -21,8 +21,8 @@
       "src": "https://github.com/saghen/blink.pairs"
     },
     "everforest-nvim": {
-      "rev": "495861c860c8ed7443dc142b0effd7ec127db4f0",
-      "src": "https://github.com/mezdelex/everforest-nvim"
+      "rev": "d235ca0aa6a29546e661a020e2618612acbbffbe",
+      "src": "https://github.com/neanias/everforest-nvim"
     },
     "gitsigns.nvim": {
       "rev": "8d82c240f190fc33723d48c308ccc1ed8baad69d",
