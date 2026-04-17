@@ -81,7 +81,7 @@
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-dap-view": {
-      "rev": "1dd4ba2307245ca9517a4b9d99f3bf80830e4397",
+      "rev": "57961b30d2d4054d2e1f549a2edad2e47731007f",
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
