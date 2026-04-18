@@ -46,6 +46,7 @@ return {
 
         vim.keymap.set({ "i", "n", "x" }, "<a-A>", agentic.stop_generation)
         vim.keymap.set({ "i", "n", "x" }, "<a-a>", agentic.toggle)
+        vim.keymap.set({ "i", "n", "x" }, "<a-a><a-a>", agentic.restore_session)
     end,
     defer = true,
     src = "https://github.com/carlos-algms/agentic.nvim",
