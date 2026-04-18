@@ -15,11 +15,5 @@ return {
         })
     end,
     defer = true,
-    dependencies = {
-        {
-            defer = true,
-            src = "https://github.com/nvim-tree/nvim-web-devicons",
-        },
-    },
     src = "https://github.com/romgrk/barbar.nvim",
 }
