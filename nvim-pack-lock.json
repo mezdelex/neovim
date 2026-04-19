@@ -121,7 +121,7 @@
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
-      "rev": "9518806e0ef52a3677bb3cb906e8a54bf9a248ee",
+      "rev": "eb46ee6a39bd00bbe7fd38530b84466d44eba976",
       "src": "https://github.com/mezdelex/roslyn.nvim"
     },
     "telescope-egrepify.nvim": {

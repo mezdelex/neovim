@@ -1,4 +1,4 @@
 return {
-    defer = true,
-    src = "https://github.com/catgoose/nvim-colorizer.lua",
+	defer = true,
+	src = "https://github.com/catgoose/nvim-colorizer.lua",
 }

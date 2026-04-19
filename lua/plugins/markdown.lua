@@ -1,13 +1,13 @@
 return {
-    config = function()
-        local markdown = require("render-markdown")
+	config = function()
+		local markdown = require("render-markdown")
 
-        markdown.setup({
-            file_types = { "AgenticChat", "markdown" },
-        })
+		markdown.setup({
+			file_types = { "AgenticChat", "markdown" },
+		})
 
-        vim.keymap.set("n", "<leader>m", markdown.toggle)
-    end,
-    defer = true,
-    src = "https://github.com/MeanderingProgrammer/render-markdown.nvim",
+		vim.keymap.set("n", "<leader>m", markdown.toggle)
+	end,
+	defer = true,
+	src = "https://github.com/MeanderingProgrammer/render-markdown.nvim",
 }
