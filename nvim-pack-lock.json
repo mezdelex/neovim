@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "69da7037824780a8b5998f5d7dcb35fe9b099a9c",
+      "rev": "f36092681e438af4b4862fc0543c78b2a41586db",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -57,7 +57,7 @@
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
-      "rev": "899e93f9f10251d7220b188eba1b837c0ba27927",
+      "rev": "e135361b9c11755ef6c48f54a2c970c509b56239",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
     "nvim-bqf": {
@@ -133,7 +133,7 @@
       "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
     },
     "telescope.nvim": {
-      "rev": "471eebb1037899fd942cc0f52c012f8773505da1",
+      "rev": "028d9a0695a0cc4cfa893889f8c408ed7ccc8adc",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "tiny-code-action.nvim": {
