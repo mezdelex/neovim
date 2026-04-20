@@ -58,7 +58,7 @@ return {
 	dependencies = {
 		{
 			defer = true,
-			src = "https://github.com/mezdelex/roslyn.nvim",
+			src = "https://github.com/seblyng/roslyn.nvim",
 		},
 		{
 			defer = true,

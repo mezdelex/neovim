@@ -9,7 +9,9 @@ return {
 		}
 		local utils_dap = require("utils.dap")
 
-		require("mason").setup()
+		require("mason").setup({
+			registries = { "github:Crashdummyy/mason-registry", "github:mason-org/mason-registry" },
+		})
 		require("mason-nvim-dap").setup({
 			ensure_installed = { "codelldb", "coreclr", "delve", "python" },
 		})
@@ -104,7 +106,7 @@ return {
 		},
 		{
 			defer = true,
-			src = "https://github.com/williamboman/mason.nvim",
+			src = "https://github.com/mezdelex/mason.nvim",
 		},
 	},
 	src = "https://github.com/mfussenegger/nvim-dap",

@@ -53,8 +53,8 @@
       "src": "https://github.com/jay-babu/mason-nvim-dap.nvim"
     },
     "mason.nvim": {
-      "rev": "b03fb0f20bc1d43daf558cda981a2be22e73ac42",
-      "src": "https://github.com/williamboman/mason.nvim"
+      "rev": "0aa50785767f363fbe6c0095ab1281a09ea45e37",
+      "src": "https://github.com/mezdelex/mason.nvim"
     },
     "none-ls.nvim": {
       "rev": "e135361b9c11755ef6c48f54a2c970c509b56239",
@@ -121,8 +121,8 @@
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
-      "rev": "eb46ee6a39bd00bbe7fd38530b84466d44eba976",
-      "src": "https://github.com/mezdelex/roslyn.nvim"
+      "rev": "946e559db19bfc5c7bf8be524a9c1acfde8ffffe",
+      "src": "https://github.com/seblyng/roslyn.nvim"
     },
     "telescope-egrepify.nvim": {
       "rev": "cd9342b95c1a8cff2e41ba5041ae3912f47595cc",
