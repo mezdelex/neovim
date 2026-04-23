@@ -106,7 +106,7 @@ return {
 		},
 		{
 			defer = true,
-			src = "https://github.com/mezdelex/mason.nvim",
+			src = "https://github.com/williamboman/mason.nvim",
 		},
 	},
 	src = "https://github.com/mfussenegger/nvim-dap",
