@@ -35,4 +35,5 @@ return {
 		},
 	},
 	src = "https://github.com/saghen/blink.cmp",
+	version = "v1",
 }
