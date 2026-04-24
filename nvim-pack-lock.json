@@ -58,7 +58,7 @@
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
-      "rev": "e135361b9c11755ef6c48f54a2c970c509b56239",
+      "rev": "8cd333aa66e08492d891bdad272208a620cb93a3",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
     "nvim-bqf": {
@@ -86,7 +86,7 @@
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "81878de76c0de4ce289513734ad80c31ec7871b8",
+      "rev": "8fde495949782bb61c2605174e231d145a048d8c",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -146,7 +146,7 @@
       "src": "https://github.com/neovim-treesitter/treesitter-parser-registry"
     },
     "unpack.nvim": {
-      "rev": "bcb1da67cb8e788d40cb437d4e5af385848076ec",
+      "rev": "5f24da7df146ebf16bf07f4db504c97e02221d5a",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
