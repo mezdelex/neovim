@@ -3,32 +3,33 @@ local group = "Init"
 vim.api.nvim_create_augroup(group, { clear = true })
 
 vim.api.nvim_create_autocmd("FileType", {
-	callback = function(args)
-		pcall(vim.treesitter.start, args.buf)
-	end,
-	group = group,
+    callback = function(args)
+        pcall(vim.treesitter.start, args.buf)
+    end,
+    group = group,
 })
 vim.api.nvim_create_autocmd("LspAttach", {
-	callback = function(args)
-		local options = { buffer = args.buf } ---@type vim.keymap.set.Opts
+    callback = function(args)
+        local options = { buffer = args.buf } ---@type vim.keymap.set.Opts
 
-		vim.keymap.set("n", "<a-f>", vim.lsp.buf.format, options)
-		vim.keymap.set("n", "<leader>R", "<cmd>lsp restart<cr>", options)
-		vim.keymap.set("n", "<leader>i", vim.lsp.buf.hover, options)
-		vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename, options)
-		vim.keymap.set("n", "gd", vim.lsp.buf.definition, options)
-		vim.keymap.set("n", "gi", vim.lsp.buf.implementation, options)
-		vim.keymap.set("n", "gr", vim.lsp.buf.references, options)
-		vim.keymap.set("n", "gt", vim.lsp.buf.type_definition, options)
-	end,
-	group = group,
+        vim.keymap.set("n", "<a-f>", vim.lsp.buf.format, options)
+        vim.keymap.set("n", "<leader>R", "<cmd>lsp restart<cr>", options)
+        vim.keymap.set("n", "<leader>i", vim.lsp.buf.hover, options)
+        vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename, options)
+        vim.keymap.set("n", "gd", vim.lsp.buf.definition, options)
+        vim.keymap.set("n", "gi", vim.lsp.buf.implementation, options)
+        vim.keymap.set("n", "gr", vim.lsp.buf.references, options)
+        vim.keymap.set("n", "gt", vim.lsp.buf.type_definition, options)
+    end,
+    group = group,
 })
 vim.api.nvim_create_autocmd("VimEnter", {
-	callback = function()
-		vim.cmd("clearjumps")
-		vim.cmd("packadd nvim.undotree")
+    callback = function()
+        require("vim._core.ui2").enable()
+        vim.cmd("clearjumps")
+        vim.cmd("packadd nvim.undotree")
 
-		vim.keymap.set("n", "<leader>u", require("undotree").open)
-	end,
-	group = group,
+        vim.keymap.set("n", "<leader>u", require("undotree").open)
+    end,
+    group = group,
 })
