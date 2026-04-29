@@ -5,7 +5,7 @@
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
-      "rev": "539d73def39c9172b4d4d769f14090e08f37b29d",
+      "rev": "a4bef5b4fc1f064f2f673172252028eae18191c9",
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
@@ -58,7 +58,7 @@
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
-      "rev": "8cd333aa66e08492d891bdad272208a620cb93a3",
+      "rev": "241ff8214b4ec051eb51e74a61ff729c0271b429",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
     "nvim-bqf": {
@@ -82,11 +82,11 @@
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-dap-view": {
-      "rev": "01ad4537bac9a0843e72c9615fa7fcaa69b119eb",
+      "rev": "6e7c49a107f70af237543413690a60a63d8d7725",
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "bf5abe69c1874531f359a822d0cff4d73e26113f",
+      "rev": "b66a8ce16b141cd26576267e2d1f371d658b7bb7",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
