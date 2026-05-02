@@ -18,7 +18,7 @@
       "src": "https://github.com/saghen/blink.indent"
     },
     "blink.pairs": {
-      "rev": "2da33da164fbbf5cf52214fb9e7db1096d55e0dc",
+      "rev": "1e8ad765ab956e87b0c7b86a32ffc5c265d9519b",
       "src": "https://github.com/saghen/blink.pairs"
     },
     "everforest-nvim": {
@@ -134,7 +134,7 @@
       "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
     },
     "telescope.nvim": {
-      "rev": "506338434fec5ad19cb1f8d45bf92d66c4917393",
+      "rev": "ec009610d5d259ec59a6edf0219ef3f7ee4732e5",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "tiny-code-action.nvim": {
