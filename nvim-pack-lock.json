@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "6a35c8bd3073c50a376ebf80a3b8602ea9b5807a",
+      "rev": "3b9ba99b9d365a493b9504602728023fb9098a76",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
