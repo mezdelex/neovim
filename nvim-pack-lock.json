@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "3b9ba99b9d365a493b9504602728023fb9098a76",
+      "rev": "70b0d734c544499695698369f15faa879c9b7dca",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -18,7 +18,7 @@
       "src": "https://github.com/saghen/blink.indent"
     },
     "blink.pairs": {
-      "rev": "1e8ad765ab956e87b0c7b86a32ffc5c265d9519b",
+      "rev": "57785effbe1d8ba7810ce79dfd4e6a47bac22726",
       "src": "https://github.com/saghen/blink.pairs"
     },
     "everforest-nvim": {
@@ -82,7 +82,7 @@
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-dap-view": {
-      "rev": "e8199a2c2202415785b65799fa92e1a1cd2f4d4f",
+      "rev": "f227b1fa7456f1f3771db5e210b5f99c7bf25630",
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
@@ -134,7 +134,7 @@
       "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
     },
     "telescope.nvim": {
-      "rev": "ec009610d5d259ec59a6edf0219ef3f7ee4732e5",
+      "rev": "f04ab730b8f9c6bf3f54a206d0dcddfd70c52d59",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "tiny-code-action.nvim": {
