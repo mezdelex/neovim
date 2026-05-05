@@ -8,18 +8,17 @@
       "rev": "a4bef5b4fc1f064f2f673172252028eae18191c9",
       "src": "https://github.com/romgrk/barbar.nvim"
     },
-    "blink.cmp": {
-      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
-      "src": "https://github.com/saghen/blink.cmp",
-      "version": "'v1'"
+    "cmp-buffer": {
+      "rev": "b74fab3656eea9de20a9b8116afa3cfc4ec09657",
+      "src": "https://github.com/hrsh7th/cmp-buffer"
     },
-    "blink.indent": {
-      "rev": "9c80820ca77218a8d28e70075d6f44a1609911fe",
-      "src": "https://github.com/saghen/blink.indent"
+    "cmp-nvim-lsp": {
+      "rev": "cbc7b02bb99fae35cb42f514762b89b5126651ef",
+      "src": "https://github.com/hrsh7th/cmp-nvim-lsp"
     },
-    "blink.pairs": {
-      "rev": "57785effbe1d8ba7810ce79dfd4e6a47bac22726",
-      "src": "https://github.com/saghen/blink.pairs"
+    "cmp-path": {
+      "rev": "c642487086dbd9a93160e1679a1327be111cbc25",
+      "src": "https://github.com/hrsh7th/cmp-path"
     },
     "everforest-nvim": {
       "rev": "d235ca0aa6a29546e661a020e2618612acbbffbe",
@@ -28,6 +27,10 @@
     "gitsigns.nvim": {
       "rev": "dd3f588bacbeb041be6facf1742e42097f62165d",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
+    "indent-blankline.nvim": {
+      "rev": "d28a3f70721c79e3c5f6693057ae929f3d9c0a03",
+      "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
     },
     "lazydev.nvim": {
       "rev": "ff2cbcba459b637ec3fd165a2be59b7bbaeedf0d",
@@ -61,9 +64,17 @@
       "rev": "241ff8214b4ec051eb51e74a61ff729c0271b429",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
+    "nvim-autopairs": {
+      "rev": "59bce2eef357189c3305e25bc6dd2d138c1683f5",
+      "src": "https://github.com/windwp/nvim-autopairs"
+    },
     "nvim-bqf": {
       "rev": "c282a62bec6c0621a1ef5132aa3f4c9fc4dcc2c7",
       "src": "https://github.com/kevinhwang91/nvim-bqf"
+    },
+    "nvim-cmp": {
+      "rev": "a1d504892f2bc56c2e79b65c6faded2fd21f3eca",
+      "src": "https://github.com/hrsh7th/nvim-cmp"
     },
     "nvim-colorizer.lua": {
       "rev": "5cfe7fffbd01e17b3c1e14af85d5febdef88bd8c",
