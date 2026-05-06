@@ -22,6 +22,7 @@ vim.opt.swapfile = false
 vim.opt.undodir = os.getenv("HOMEPATH") .. "/.nvim/undodir"
 vim.opt.undofile = true
 
+vim.opt.pumheight = 10
 vim.opt.showmode = false
 vim.opt.termguicolors = true
 vim.opt.winborder = "rounded"
