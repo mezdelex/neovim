@@ -1,18 +1,26 @@
 return {
     config = function()
         local cmp = require("cmp")
+        local sources = {
+            { name = "nvim_lsp" },
+            { name = "buffer" },
+            { name = "cmdline" },
+            { name = "path" },
+        }
 
         cmp.setup({
             mapping = cmp.mapping.preset.insert({
-                ["<c-n>"] = cmp.mapping.select_next_item(),
-                ["<c-p>"] = cmp.mapping.select_prev_item(),
                 ["<cr>"] = cmp.mapping.confirm({ select = true }),
             }),
-            sources = cmp.config.sources({
-                { name = "nvim_lsp" },
-                { name = "buffer" },
-                { name = "path" },
-            }),
+            sources = cmp.config.sources(sources),
+        })
+        cmp.setup.cmdline(":", {
+            mapping = cmp.mapping.preset.cmdline(),
+            sources = cmp.config.sources(sources),
+        })
+        cmp.setup.cmdline({ "/", "?" }, {
+            mapping = cmp.mapping.preset.cmdline(),
+            sources = cmp.config.sources(sources),
         })
     end,
     defer = true,
@@ -28,6 +36,10 @@ return {
         {
             defer = true,
             src = "https://github.com/hrsh7th/cmp-buffer",
+        },
+        {
+            defer = true,
+            src = "https://github.com/hrsh7th/cmp-cmdline",
         },
     },
     src = "https://github.com/hrsh7th/cmp-path",
