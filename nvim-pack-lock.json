@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "b7dc624564a08f45141e85a0aef28bb4f89a0d29",
+      "rev": "b6529a4749ee72ba64e40401e4b25d0ef7cdb81e",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -31,10 +31,6 @@
     "gitsigns.nvim": {
       "rev": "dd3f588bacbeb041be6facf1742e42097f62165d",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
-    },
-    "img-clip.nvim": {
-      "rev": "b6ddfb97b5600d99afe3452d707444afda658aca",
-      "src": "https://github.com/hakonharnes/img-clip.nvim"
     },
     "indent-blankline.nvim": {
       "rev": "d28a3f70721c79e3c5f6693057ae929f3d9c0a03",

@@ -49,11 +49,5 @@ return {
         vim.keymap.set({ "i", "n", "x" }, "<a-a><a-a>", agentic.restore_session)
     end,
     defer = true,
-    dependencies = {
-        {
-            defer = true,
-            src = "https://github.com/hakonharnes/img-clip.nvim",
-        },
-    },
     src = "https://github.com/carlos-algms/agentic.nvim",
 }
