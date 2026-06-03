@@ -1,21 +1,24 @@
 return {
     config = function()
-        require("blink.cmp").build():pwait()
-        require("blink.pairs").build():pwait()
+        local cmp = require("blink.cmp")
+        local pairs = require("blink.pairs")
+
+        cmp.build():pwait()
+        pairs.build():pwait()
 
         require("blink.indent").setup({
             scope = {
                 highlights = { "BlinkIndentScope" },
             },
         })
-        require("blink.pairs").setup({
-            highlights = { enabled = false },
-        })
-        require("blink.cmp").setup({
+        cmp.setup({
             completion = {
                 documentation = { auto_show = true },
             },
             keymap = { preset = "enter" },
+        })
+        pairs.setup({
+            highlights = { enabled = false },
         })
     end,
     defer = true,

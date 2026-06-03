@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "43cb60895ee109161ae5cffa26444018cc07e570",
+      "rev": "b943982a29f100a4d17b3d2d09dc06b5a0d0f398",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
