@@ -85,7 +85,7 @@
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-dap-view": {
-      "rev": "ba5c838e731003abefb8bc1c403c59aa5b3aa194",
+      "rev": "91a2b0eab74cc889499587166cc6e3d53a7e1e45",
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
@@ -149,7 +149,7 @@
       "src": "https://github.com/neovim-treesitter/treesitter-parser-registry"
     },
     "unpack.nvim": {
-      "rev": "deacd368eacbe8dd065120b9f55b9d2e8303d43c",
+      "rev": "98856cf85e85d022f7aa89b73bfa154299951df2",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
