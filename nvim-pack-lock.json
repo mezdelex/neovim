@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "b6529a4749ee72ba64e40401e4b25d0ef7cdb81e",
+      "rev": "bc87eab6b80ac01825ea0c316f6549b4c143504f",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -125,7 +125,7 @@
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
-      "rev": "dedfc3f539c51a5841feb572e8b73ec58ff2ca9d",
+      "rev": "9c5da79216e5776e020dcc6c157983f5352f3f11",
       "src": "https://github.com/seblyng/roslyn.nvim"
     },
     "telescope-egrepify.nvim": {
@@ -153,7 +153,7 @@
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
-      "rev": "257716a5649e35eaebf2015a488b0f22b3907a47",
+      "rev": "020c22d0cfa60358569e49d1d7b91630f175aef0",
       "src": "https://github.com/gbprod/yanky.nvim"
     }
   }
