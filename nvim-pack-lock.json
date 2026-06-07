@@ -153,7 +153,7 @@
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
-      "rev": "b13d318dc7c816e2eee626dde61fa0a7237bc77e",
+      "rev": "257716a5649e35eaebf2015a488b0f22b3907a47",
       "src": "https://github.com/gbprod/yanky.nvim"
     }
   }
