@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "bc87eab6b80ac01825ea0c316f6549b4c143504f",
+      "rev": "ca7700bdcf57f6079833574d924c99f0d3dbc4b9",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "3db7326f54b73df4789e0fd6274bedda33975fea",
+      "rev": "b02ac65634bdb8af2dcc4eb6c807c060e1e15ae6",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
@@ -21,7 +21,7 @@
       "src": "https://github.com/saghen/blink.lib"
     },
     "blink.pairs": {
-      "rev": "436857a5c2558c8f66a61ce4745d1342789a4881",
+      "rev": "100a60c07a1c8350ce91d048285b497c5e64b0b8",
       "src": "https://github.com/saghen/blink.pairs"
     },
     "everforest-nvim": {
