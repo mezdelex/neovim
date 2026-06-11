@@ -1,11 +1,11 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "ca7700bdcf57f6079833574d924c99f0d3dbc4b9",
+      "rev": "a19fee663aa8be5f46f0af6fc0b46427b0e75cf2",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
-      "rev": "a4bef5b4fc1f064f2f673172252028eae18191c9",
+      "rev": "337ecfadb8bf005050990bf2f624dc4fc828dabd",
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
@@ -45,7 +45,7 @@
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mason-lspconfig.nvim": {
-      "rev": "0a695750d747db1e7e70bcf0267ef8951c95fc83",
+      "rev": "906c32c8a034dd3d51353d63226bf91aeacd927c",
       "src": "https://github.com/williamboman/mason-lspconfig.nvim"
     },
     "mason-null-ls.nvim": {
@@ -57,7 +57,7 @@
       "src": "https://github.com/jay-babu/mason-nvim-dap.nvim"
     },
     "mason.nvim": {
-      "rev": "16ba83bfc8a25f52bb545134f5bee082b195c460",
+      "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
