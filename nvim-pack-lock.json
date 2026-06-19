@@ -9,19 +9,19 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "26ec6f0a1a8101eb134f8b8568d6099be015fe70",
+      "rev": "50c696b5c3ca359305f8e241e9458b0d2d787540",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
-      "rev": "5cb5ea0f942f17d6182fdad064a17d67f71b9375",
+      "rev": "8b69b9262891fe81fe728fe6a52fa2a84dd5d5e0",
       "src": "https://github.com/saghen/blink.indent"
     },
     "blink.lib": {
-      "rev": "bf67998a314236cfba50fe311d60ef03d15d9426",
+      "rev": "5876dd95deeb70aadbe9f1c0b7117a135061cdac",
       "src": "https://github.com/saghen/blink.lib"
     },
     "blink.pairs": {
-      "rev": "667dc9dd5a3735883b0204212b9602c626ede3fe",
+      "rev": "d0f00431105f773ae50cdc0fa03208448f5f829e",
       "src": "https://github.com/saghen/blink.pairs"
     },
     "everforest-nvim": {
@@ -29,7 +29,7 @@
       "src": "https://github.com/neanias/everforest-nvim"
     },
     "gitsigns.nvim": {
-      "rev": "25050e4ed39e628282831d4cbecb1850454ce915",
+      "rev": "2038c666bd9d8a0b7349a0b6ee00dc83104b9ecf",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
     "lazydev.nvim": {
@@ -89,7 +89,7 @@
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "96f363ce07d46c1804532ca2d1eb3a157d11ee29",
+      "rev": "bfcc0171a43f22afa61d927ffe9fcb6cb85dc99e",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -149,7 +149,7 @@
       "src": "https://github.com/neovim-treesitter/treesitter-parser-registry"
     },
     "unpack.nvim": {
-      "rev": "98856cf85e85d022f7aa89b73bfa154299951df2",
+      "rev": "e4319bf3b429d3ef5ed99f1e7710597f65b187dd",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
