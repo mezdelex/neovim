@@ -45,7 +45,7 @@
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mason-lspconfig.nvim": {
-      "rev": "a4068c3ebd4cb335b25239e5ea35c22ee6007962",
+      "rev": "916c29ee62699457a3ec57962781c67c6c6772f2",
       "src": "https://github.com/williamboman/mason-lspconfig.nvim"
     },
     "mason-null-ls.nvim": {
@@ -89,12 +89,12 @@
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
-      "rev": "b386c50cd7816f8c8a2b13b298a218af1f5a75c6",
+      "rev": "e7ca2c95ba316a8b846d3f3546d407908c5c4ccb",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "df7489eeea351bece7fd0f9c825be5cb6a1438f0",
-      "src": "https://github.com/neovim-treesitter/nvim-treesitter"
+      "rev": "24977147550d53589e53b874ec75e14e4fbc304e",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-treesitter-textobjects": {
       "rev": "851e865342e5a4cb1ae23d31caf6e991e1c99f1e",
@@ -144,12 +144,8 @@
       "rev": "0d040ed81f7953118b81cd12681fcdfcac069803",
       "src": "https://github.com/rachartier/tiny-code-action.nvim"
     },
-    "treesitter-parser-registry": {
-      "rev": "6eb15358bb9fc88f0d3401d8538d56652e9bdf3c",
-      "src": "https://github.com/neovim-treesitter/treesitter-parser-registry"
-    },
     "unpack.nvim": {
-      "rev": "e4319bf3b429d3ef5ed99f1e7710597f65b187dd",
+      "rev": "7ce89732cd208050370f31d2b44a17a750fb4a49",
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
