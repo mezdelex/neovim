@@ -125,7 +125,7 @@
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "roslyn.nvim": {
-      "rev": "386cd91fcab17bcbaac82851a75764850a08e983",
+      "rev": "2dcbbe81b48f8377df2281d9be4f2c84ccfff520",
       "src": "https://github.com/seblyng/roslyn.nvim"
     },
     "telescope-egrepify.nvim": {
@@ -149,7 +149,7 @@
       "src": "https://github.com/mezdelex/unpack.nvim"
     },
     "yanky.nvim": {
-      "rev": "020c22d0cfa60358569e49d1d7b91630f175aef0",
+      "rev": "dd6689fdda85f66cab7d9b1a1664625f3be0920d",
       "src": "https://github.com/gbprod/yanky.nvim"
     }
   }
