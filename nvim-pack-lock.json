@@ -1,7 +1,7 @@
 {
   "plugins": {
     "agentic.nvim": {
-      "rev": "177bbff8523cc313dd338426d955194568195006",
+      "rev": "63b80d8227f7309545ca24b8da1685e08bd0c9ea",
       "src": "https://github.com/carlos-algms/agentic.nvim"
     },
     "barbar.nvim": {
@@ -9,7 +9,7 @@
       "src": "https://github.com/romgrk/barbar.nvim"
     },
     "blink.cmp": {
-      "rev": "005f8c859997f40f65bfbec5f4b400c45fecc06a",
+      "rev": "cba53eff1948109ec0f47cbead4f07494d1e25c9",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.indent": {
