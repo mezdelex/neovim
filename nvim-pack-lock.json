@@ -61,7 +61,7 @@
       "src": "https://github.com/williamboman/mason.nvim"
     },
     "none-ls.nvim": {
-      "rev": "01f8e62ea11603e59ad9ff7afcfa94fd183f76d6",
+      "rev": "c4b82bb63b13856ba4d6b971b7aad3bb38fc6fe2",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
     "nvim-bqf": {
@@ -85,7 +85,7 @@
       "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-dap-view": {
-      "rev": "210b2c0e4acc08aad23fbd5a7989dd0169f716d0",
+      "rev": "43a2ccf5618ea26a9b11575ff18ded1cc82746bf",
       "src": "https://github.com/igorlfs/nvim-dap-view"
     },
     "nvim-lspconfig": {
