@@ -29,6 +29,9 @@ return {
                 "yamlls",
             },
         })
+        require("roslyn").setup({
+            filewatching = "roslyn",
+        })
 
         vim.diagnostic.config({
             float = {
